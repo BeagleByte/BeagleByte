@@ -1,0 +1,26 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Hyde
+tagline:          'A Jekyll theme'
+description:      'A BeagleByte theme for tech topics, tutorials, and more.'
+url:              http://hyde.getpoole.com
+baseurl:          /
+
+author:
+  name:           'BeagelByte'
+  url:            https://github.com/BeagleByte
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/poole/hyde
