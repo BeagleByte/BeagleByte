@@ -1,17 +1,17 @@
 <div class="sidebar">
-    <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+    <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white">
         <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
             <li class="nav-item">
                 <a href="{{ '/' | relative_url }}" class="nav-link {% if page.url == '/' %}active{% endif %}"
                    aria-current="page">
-                        Home
+                    Home
                 </a>
 
             </li>
             <li class="nav-item">
                 <a href="{{ '/about' | relative_url }}"
                    class="nav-link link-dark {% if page.url == '/about/' %}active{% endif %}">
-                        About
+                    About
                 </a>
 
             </li>
@@ -19,15 +19,19 @@
             <li class="nav-item">
                 <a href="{{ '/blog' | relative_url }}"
                    class="nav-link link-dark {% if page.layout == 'post' or page.url == '/blog/' %}active{% endif %}">
-                      Blog
+                    Blog
                 </a>
             </li>
             <li class="nav-item">
                 <a href="{{ '/contact' | relative_url }}"
                    class="nav-link link-dark {% if page.url == '/contact/' %}active{% endif %}">
-                       Contact
+                    Contact
                 </a>
             </li>
         </ul>
+    </div>
+    <div class="sidebar-footer">
+        <img src="{{ '/assets/images/bionicbeagle4.jpg' | relative_url }}" alt="Bionic Beagle" class="sidebar-image">
+        <p class="glowing-text">Bionic Beagle Theme</p>
     </div>
 </div>

@@ -11,9 +11,7 @@ body {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4), 3px 3px 8px #de9a32;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.sidebar {
-    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.2); /* Horizontal shadow, no vertical offset, blur radius, and light opacity */
-}
+
 
 .card:hover {
     transform: translateY(-5px);
@@ -110,7 +108,7 @@ a {
 }
 .nav-link {
     color: #b77536 !important;
-    text-shadow: 0 0 1px #de9a32, 0 0 2px #de9a32, 0 0 5px #e4b151; /* Glow effect */
+    text-shadow: 0 0 1px #de9a32, 0 0 2px #de9a32, 0 0 5px #e4b151;
     font-family: 'Orbitron', 'Share Tech Mono', sans-serif;
     margin: 10px 0;
     padding: 5px 10px;
@@ -141,8 +139,8 @@ a {
 
 .btn {
     font-family: 'Orbitron', 'Share Tech Mono', sans-serif;
-    padding: 5px 10px; /* Reduced padding */
-    font-size: 0.8rem; /* Reduced font size */
+    padding: 5px 10px;
+    font-size: 0.8rem;
     letter-spacing: 1px;
     border-radius: 0;
     color: #b77536 !important;
@@ -162,10 +160,61 @@ a {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
 }
 .highlight {
-    border: 1px solid #b77536; /* Tiny border with a brown color */
-    background-color: #f5e6d3; /* Light brown background */
-    padding: 10px; /* Add some padding inside the box */
-    border-radius: 4px; /* Optional: rounded corners */
-    font-family: 'Courier New', Courier, monospace; /* Code font */
-    overflow-x: auto; /* Enable horizontal scrolling for long code */
+    border: 1px solid #b77536;
+    background-color: #f5e6d3;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    overflow-x: auto;
+}
+.sidebar {
+    position: relative;
+    width: 250px;
+    height: 100vh;
+    background-color: #27211c;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.2);
+}
+.sidebar-footer {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar-image {
+    max-width: 80px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.glowing-text {
+    font-size: 0.9rem;
+    color: #e4b151;
+    text-shadow: 0 0 5px #e4b151, 0 0 10px #de9a32, 0 0 15px #e48b31;
+    font-family: 'Orbitron', 'Share Tech Mono', sans-serif;
+    animation: glow 1.5s infinite alternate;
+}
+@keyframes glow {
+    from {
+        text-shadow: 0 0 5px #e4b151, 0 0 10px #de9a32, 0 0 15px #e48b31;
+    }
+    to {
+        text-shadow: 0 0 10px #e4b151, 0 0 20px #de9a32, 0 0 30px #e48b31;
+    }
+}
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .glowing-text {
+        font-size: 0.7rem; /* Shrink font size for smaller screens */
+    }
+    .sidebar {
+        padding: 5px; /* Reduce padding */
+    }
 }
