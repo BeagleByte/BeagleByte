@@ -1,25 +1,23 @@
 # Dependencies
-markdown:         redcarpet
+markdown:         kramdown
 highlighter:      pygments
 
-# Permalinks
-permalink:        pretty
-relative_permalinks: true
+collections:
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:title/
+  pages:
+    output: true
+    permalink: /:title/
 
 # Setup
-title:            Hyde
+title:            BeagleByte
 tagline:          'A Jekyll theme'
 description:      'A BeagleByte theme for tech topics, tutorials, and more.'
 baseurl:          /
 
 author:
   name:           'BeagelByte'
-  url:            https://github.com/BeagleByte
-
-paginate:         5
 
 # Custom vars
-version:          1.0.0
-
-github:
-  repo:          https://github.com/BeagleByte/BeagleByte
+version:          0.1.0

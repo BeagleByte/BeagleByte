@@ -1,0 +1,129 @@
+/* dark red 531d19
+glow orange de9a32
+ */
+body {
+    background-color: #2e2620;
+}
+.card {
+    background-color: #2e2620;
+    color: #e4b151;
+    border: 1px solid #de9a32;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4), 3px 3px 8px #de9a32;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6), 5px 5px 12px #de9a32;
+}
+
+.card-title, .card-text {
+    color: #color: #e4b151; ;
+}
+
+.col-2 {
+    background-color: #27211c;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #e4b151;
+}
+
+
+strong, b {
+    color: #e4b151;
+}
+
+
+a {
+    color: #e4b151;
+}
+
+
+.nav-link {
+    color: #b77536 !important;
+}
+
+
+@keyframes glitch {
+    0% {
+        background-position: 0% 0%;
+    }
+    20% {
+        background-position: 10% 10%;
+    }
+    40% {
+        background-position: -10% -10%;
+    }
+    60% {
+        background-position: 5% -5%;
+    }
+    80% {
+        background-position: -5% 5%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+
+.nav-link:hover {
+    background:
+        repeating-linear-gradient(90deg, #e48b31, #e48b31 2px, transparent 2px, transparent 4px),
+        linear-gradient(90deg, #e48b31, #b77536, #e48b31);
+    background-size: 400% 400%, 100% 100%;
+    animation: glitch 0.5s infinite;
+    color: #ffffff !important;
+    border: 1px solid #b77536;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+.nav-link {
+    font-family: 'Orbitron', 'Share Tech Mono', sans-serif;
+    margin: 10px 0;
+    padding: 5px 10px;
+    letter-spacing: 2px;
+    color: #e4b151 !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #27211c !important;
+    transform: translateY(-3px);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6), 3px 3px 8px #de9a32;
+}
+
+.nav-link.active {
+    background:
+        repeating-linear-gradient(90deg, #e48b31, #e48b31 2px, transparent 2px, transparent 4px),
+        linear-gradient(90deg, #e48b31, #b77536, #e48b31);
+    background-size: 400% 400%, 100% 100%;
+    animation: glitch 0.5s infinite;
+    color: #ffffff !important;
+    border: 1px solid #b77536;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+}
+
+.btn {
+    font-family: 'Orbitron', 'Share Tech Mono', sans-serif;
+    padding: 5px 10px; /* Reduced padding */
+    font-size: 0.8rem; /* Reduced font size */
+    letter-spacing: 1px;
+    border-radius: 0;
+    color: #b77536 !important;
+    background: none;
+    border: 1px solid #b77536;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background:
+        repeating-linear-gradient(90deg, #e48b31, #e48b31 2px, transparent 2px, transparent 4px),
+        linear-gradient(90deg, #e48b31, #b77536, #e48b31);
+    background-size: 400% 400%, 100% 100%;
+    animation: glitch 0.5s infinite;
+    color: #ffffff !important;
+    border: 1px solid #b77536;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
