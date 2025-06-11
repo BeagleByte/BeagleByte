@@ -14,10 +14,14 @@ collections:
 title:            BeagleByte
 tagline:          'A Jekyll theme'
 description:      'A BeagleByte theme for tech topics, tutorials, and more.'
-baseurl:          /
+baseurl:          /BeagleByte
+url: http://BeagleByte.github.io
 
 author:
   name:           'BeagelByte'
 
 # Custom vars
 version:          0.1.0
+
+
+
