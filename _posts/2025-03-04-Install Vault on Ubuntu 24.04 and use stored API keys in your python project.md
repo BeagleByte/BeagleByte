@@ -46,6 +46,7 @@ activate it.
 The Vault needs to be unsealed before it can be used.
 
 **Initialize Vault:**
+
 ```bash
 vault operator ini
 ```
@@ -54,6 +55,7 @@ This command will output the unseal keys and the initial root token. Make sure t
 **Unseal Vault**:
 
 Use the unseal keys generated during initialization to unseal Vault. You need to provide at least three unseal keys to unseal Vault.
+
 ```sh
 vault operator unseal <unseal-key-1>
 vault operator unseal <unseal-key-2>
@@ -75,11 +77,14 @@ Success! Enabled the kv secrets engine at: secret/
 ```
 
 If you *struggle* with *hvac* later and you didn't find the api key, try to disable v1:
+
 ```bash
 vault secrets disable secret
 Success! Disabled the secrets engine (if it existed) at: secret/
 ```
+
 and activate:
+
 ```bash
 vault secrets enable -path=secret kv-v2
 ```
@@ -100,7 +105,6 @@ custom_metadata    <nil>
 deletion_time      n/a
 destroyed          false
 version            1
-
 ```
 
 **Retrieve the stored API key**:
@@ -132,6 +136,8 @@ pip install hvac
 I installed *hvac version 2.3.0* with *python version 3.10.16* in a *conda* (Anaconda) environment.
 
 ##### Finally an example of usage in python
+
+
 ```python
 import hvac  
 import os  

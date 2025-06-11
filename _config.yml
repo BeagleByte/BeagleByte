@@ -1,6 +1,7 @@
 # Dependencies
 markdown:         kramdown
-highlighter:      pygments
+highlighter:      rouge
+
 
 collections:
   posts:
@@ -15,7 +16,7 @@ title:            BeagleByte
 tagline:          'A Jekyll theme'
 description:      'A BeagleByte theme for tech topics, tutorials, and more.'
 baseurl:          /BeagleByte
-url: http://BeagleByte.github.io
+url:              http://BeagleByte.github.io
 
 author:
   name:           'BeagelByte'
