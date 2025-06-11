@@ -4,7 +4,6 @@ title: "Install Vault on Ubuntu 24.04 and use stored API keys in your python pro
 date: 2025-03-04
 ---
 
-# Install Vault on Ubuntu 24.04 and use stored API keys in your python project
 ### What is Vault from HashiCorp?
 
 HashiCorp Vault is a secrets management and encryption platform designed to securely store, manage, and control access to sensitive data, such as passwords, API keys, certificates, and other secrets. It provides a centralized and secure way to manage secrets across an organization, enabling teams to protect their infrastructure, applications, and data.
