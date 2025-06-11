@@ -65,7 +65,9 @@ a {
         background-position: 0% 0%;
     }
 }
-
+.post-content {
+    background-color: #27211c;
+}
 
 .nav-link:hover {
     background:
