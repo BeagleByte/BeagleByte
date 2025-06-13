@@ -1,6 +1,6 @@
 <nav class="sidebar d-flex flex-column flex-shrink-0 position-fixed">
     <button class="toggle-btn">
-        <i class="bi bi-arrow-left-short"></i>
+        <i class="bi bi-arrow-left-short" title="This is collapse button" alt="collapse button"></i>
     </button>
 
     <div class="p-4">
@@ -10,26 +10,26 @@
     <div class="nav flex-column">
         <a class="sidebar-link text-decoration-none {% if page.url == '/' %}active{% endif %}"
            href="{{ '/' | relative_url }}"
-           aria-current="page"><i class="bi bi-house"></i>
-            <span class="hide-on-collapse">Home</span>
+           aria-current="page"><i class="bi bi-house" alt="Home"></i>
+            <span class="hide-on-collapse" title="This is home" alt="Home">Home</span>
         </a>
 
         <a class="sidebar-link text-decoration-none {% if page.url =='/about/' %}active{% endif %}"
            href="{{ '/about' | relative_url }}"
-           aria-current="page"><i class="bi bi-person-standing"></i>
-            <span class="hide-on-collapse">About</span>
+           aria-current="page"><i class="bi bi-person-standing" title="This is about me" alt="About"></i>
+            <span class="hide-on-collapse" title="This is about me" alt="Home">About</span>
         </a>
 
         <a class="sidebar-link text-decoration-none {% if page.layout == 'post' or page.url == '/blog/' %}active{% endif %}"
            href="{{ '/blog' | relative_url }}" aria-current="page">
-            <i class="bi bi-book"></i>
-            <span class="hide-on-collapse">Blog</span>
+            <i class="bi bi-book" title="This is home" alt="Home"></i>
+            <span class="hide-on-collapse" title="This is a Blog" alt="Blog">Blog</span>
         </a>
         <a href="{{ '/contact' | relative_url }}"
            class="sidebar-link text-decoration-none {% if page.url == '/contact/' %}active{% endif %}"
            aria-current="page">
-            <i class="bi bi-person-vcard"></i>
-            <span class="hide-on-collapse">Contact</span>
+            <i class="bi bi-person-vcard" title="This is Contact" alt="Contact"></i>
+            <span class="hide-on-collapse" title="This is Contact" alt="Contact">Contact</span>
         </a>
     </div>
 
@@ -38,7 +38,7 @@
             <img src="{{ '/assets/images/bionicbeagle4.jpg' | relative_url }}" alt="Bionic Beagle"
                  class="sidebar-image"/>
             <div class="ms-3 profile-info">
-                <h6 class="text-white mb-0 glowing-text">Bionic Beagle Theme</h6>
+                <h6 class="text-white mb-0 glowing-text" title="Bionic Beagle Theme" alt="Bionic Beagle Theme">Bionic Beagle Theme</h6>
             </div>
         </div>
     </div>

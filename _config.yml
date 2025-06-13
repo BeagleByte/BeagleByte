@@ -2,7 +2,6 @@
 markdown:         kramdown
 highlighter:      rouge
 
-
 collections:
   posts:
     output: true
@@ -12,17 +11,18 @@ collections:
     permalink: /:title/
 
 # Setup
-title:            BeagleByte
+title:            BeagleByte Dev & Sec
 tagline:          'A Jekyll theme'
 description:      'A BeagleByte theme for tech topics, tutorials, and more.'
+keywords:          "Python, Cyber Security, Java, Development, Spring, Spring Boot, Jekyll, Hacking"
 baseurl:          /BeagleByte
 url:              http://BeagleByte.github.io
-
 author:
-  name:           'BeagelByte'
+  name:           'BeagleByte'
+
 
 # Custom vars
-version:          0.1.0
+version:          0.7.9
 
 
 
