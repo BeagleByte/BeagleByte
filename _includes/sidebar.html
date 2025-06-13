@@ -1,37 +1,45 @@
-<div class="sidebar">
-    <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white">
-        <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
-            <li class="nav-item">
-                <a href="{{ '/' | relative_url }}" class="nav-link {% if page.url == '/' %}active{% endif %}"
-                   aria-current="page">
-                    Home
-                </a>
+<nav class="sidebar d-flex flex-column flex-shrink-0 position-fixed">
+    <button class="toggle-btn">
+        <i class="bi bi-arrow-left-short"></i>
+    </button>
 
-            </li>
-            <li class="nav-item">
-                <a href="{{ '/about' | relative_url }}"
-                   class="nav-link link-dark {% if page.url == '/about/' %}active{% endif %}">
-                    About
-                </a>
+    <div class="p-4">
 
-            </li>
-
-            <li class="nav-item">
-                <a href="{{ '/blog' | relative_url }}"
-                   class="nav-link link-dark {% if page.layout == 'post' or page.url == '/blog/' %}active{% endif %}">
-                    Blog
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="{{ '/contact' | relative_url }}"
-                   class="nav-link link-dark {% if page.url == '/contact/' %}active{% endif %}">
-                    Contact
-                </a>
-            </li>
-        </ul>
     </div>
-    <div class="sidebar-footer">
-        <img src="{{ '/assets/images/bionicbeagle4.jpg' | relative_url }}" alt="Bionic Beagle" class="sidebar-image">
-        <p class="glowing-text">Bionic Beagle Theme</p>
+
+    <div class="nav flex-column">
+        <a class="sidebar-link text-decoration-none {% if page.url == '/' %}active{% endif %}"
+           href="{{ '/' | relative_url }}"
+           aria-current="page"><i class="bi bi-house"></i>
+            <span class="hide-on-collapse">Home</span>
+        </a>
+
+        <a class="sidebar-link text-decoration-none {% if page.url =='/about/' %}active{% endif %}"
+           href="{{ '/about' | relative_url }}"
+           aria-current="page"><i class="bi bi-person-standing"></i>
+            <span class="hide-on-collapse">About</span>
+        </a>
+
+        <a class="sidebar-link text-decoration-none {% if page.layout == 'post' or page.url == '/blog/' %}active{% endif %}"
+           href="{{ '/blog' | relative_url }}" aria-current="page">
+            <i class="bi bi-book"></i>
+            <span class="hide-on-collapse">Blog</span>
+        </a>
+        <a href="{{ '/contact' | relative_url }}"
+           class="sidebar-link text-decoration-none {% if page.url == '/contact/' %}active{% endif %}"
+           aria-current="page">
+            <i class="bi bi-person-vcard"></i>
+            <span class="hide-on-collapse">Contact</span>
+        </a>
     </div>
-</div>
+
+    <div class="mt-auto p-2">
+        <div class="d-flex align-items-center">
+            <img src="{{ '/assets/images/bionicbeagle4.jpg' | relative_url }}" alt="Bionic Beagle"
+                 class="sidebar-image"/>
+            <div class="ms-3 profile-info">
+                <h6 class="text-white mb-0 glowing-text">Bionic Beagle Theme</h6>
+            </div>
+        </div>
+    </div>
+</nav>

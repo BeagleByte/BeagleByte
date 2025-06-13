@@ -5,3 +5,28 @@ permalink: /contact/
 ---
 
 
+<div id="github-profile">
+    <div id="profile-data">
+        <!-- Profile data will be dynamically inserted here -->
+    </div>
+    <script>
+        // Replace 'BeagleByte' with your GitHub username
+        const username = 'BeagleByte';
+        const apiUrl = `https://api.github.com/users/${username}`;
+
+        fetch(apiUrl)
+            .then(response => response.json())
+            .then(data => {
+                const profileHTML = `
+                    <img src="${data.avatar_url}" alt="${data.name}" style="width:100px; border-radius:50%;">
+                    <h6>${data.name}</h6>
+                    <p>${data.bio}</p>
+                    <a href="${data.html_url}" target="_blank">View GitHub Profile</a>
+                `;
+                document.getElementById('profile-data').innerHTML = profileHTML;
+            })
+            .catch(error => console.error('Error fetching GitHub profile:', error));
+    </script>
+
+</div>
+
