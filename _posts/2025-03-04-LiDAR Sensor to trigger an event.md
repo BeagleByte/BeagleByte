@@ -2,13 +2,15 @@
 layout: post
 title: "Set physical intruder alarm — LiDAR Sensor to trigger an event"
 date: 2025-03-04
+tags: [LiDAR, Sensor, Python, Tutorial]
+category: IoT
 ---
 
 What is LiDAR?
 The LiDAR instrument emits pulsed infrared laser light into the environment. The light reflected by objects coming back, and you can measure the distance.
 
 Example with the TF02-Pro Lidar Sensor
-![Alt Text](../assets/images/img.png)
+![Alt Text](/BeagleByte/assets/images/img.png)
 
 This sensor comes with UART interface. You can use a UART-TTL USB converter to use it with USB.
 ##### Protocol of the TF-02

@@ -5,10 +5,21 @@ highlighter:      rouge
 collections:
   posts:
     output: true
-    permalink: /:year/:month/:day/:title/
+    permalink: /:categories/:year/:month/:day/:title/
   pages:
     output: true
     permalink: /:title/
+
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: category
+    tag: archive
+  permalinks:
+    category: '/categories/:name/'
+    tag: '/tags/:name/'
 
 # Setup
 title:            BeagleByte Dev & Sec
@@ -18,7 +29,7 @@ keywords:          "Python, Cyber Security, Java, Development, Spring, Spring Bo
 baseurl:          /BeagleByte
 url:              http://BeagleByte.github.io
 author:
-  name:           'BeagleByte'
+  name:           "BeagleByte"
 
 
 # Custom vars

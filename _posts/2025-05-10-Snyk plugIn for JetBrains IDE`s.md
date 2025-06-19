@@ -2,8 +2,10 @@
 layout: post
 title: "Snyk is a security tool that helps developers find and fix vulnerabilities"
 date: 2025-03-04
+tags: [Snyk, JetBrains, IntelliJ, Plugin]
+category: Software-Development
 ---
-![Alt Text](../assets/images/20250513021431.png)
+![Alt Text](/BeagleByte/assets/images/20250513021431.png){: class="shrink-image" }
 
 Snyk is a security tool that helps developers find and fix vulnerabilities in their open-source dependencies, container images, and infrastructure as code. The Snyk plugin for JetBrains IDE`s can installed over Settings->Plugins.
 
@@ -40,13 +42,13 @@ Snyk offers a tiered pricing model, which typically includes the following plans
 On the left side you will find the Snyk icon after installation. 
 
 
-![Alt Text](../assets/images/2025-05-13%2002-15-11.png)
+![Alt Text](/BeagleByte/assets/images/2025-05-13%2002-15-11.png){: class="shrink-image" }
 
 A Click on it and you will find the options to this plugin. Activate your account over e.g. Github and grant access.
-![Alt Text](../assets/images/2025-05-13%2003-09-33.png)
+![Alt Text](/BeagleByte/assets/images/2025-05-13%2003-09-33.png){: class="shrink-image" }
 
 
-![Alt Text](../assets/images/2025-05-13%2003-11-01.png)
+![Alt Text](/BeagleByte/assets/images/2025-05-13%2003-11-01.png){: class="shrink-image" }
 
 After that you have access to the vulnerability scanner, which is very useful. I use it for my own projects, especially for python (due to a lot of dependencies). This make it easy to find in the third party libraries vulnerabilities. 
 I also use it for Hack the Box challenges, for instance the Web challenges often providing source code and it makes it easier to find the clue to solve the Lab. 
