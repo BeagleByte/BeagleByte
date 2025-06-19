@@ -10,16 +10,6 @@ collections:
     output: true
     permalink: /:title/
 
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layouts:
-    category: category
-    tag: archive
-  permalinks:
-    category: '/categories/:name/'
-    tag: '/tags/:name/'
 
 # Setup
 title:            BeagleByte Dev & Sec
@@ -33,7 +23,7 @@ author:
 
 
 # Custom vars
-version:          0.7.9
+version:          0.8.3
 
 
 

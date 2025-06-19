@@ -25,11 +25,12 @@
         <i class="bi bi-book" title="This is Blog" alt="Blog"></i>
         <span class="hide-on-collapse" title="This is Blog" alt="Blog">Blog</span>
     </a>
-    <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="{{ '/blog/Cyber-Security' | relative_url }}">Cyber-Security</a></li>
-        <li><a class="dropdown-item" href="{{ '/blog/Software-Development' | relative_url }}">Software-Development</a></li>
-        <li><a class="dropdown-item" href="{{ '/blog/IoT' | relative_url }}">IoT</a></li>
-    </ul>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="{{ '/Cyber-Security' | relative_url }}">Cyber-Security</a></li>
+            <li><a class="dropdown-item"
+                   href="{{ '/Software-Development' | relative_url }}">Software-Development</a></li>
+            <li><a class="dropdown-item" href="{{ '/IoT' | relative_url }}">IoT</a></li>
+        </ul>
         <a href="{{ '/contact' | relative_url }}"
            class="sidebar-link text-decoration-none {% if page.url == '/contact/' %}active{% endif %}"
            aria-current="page">

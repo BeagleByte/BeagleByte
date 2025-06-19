@@ -2,7 +2,6 @@
 layout: post
 title: "Install Vault on Ubuntu 24.04 and use stored API keys in your python project"
 date: 2025-03-04
-tags: [HashiCorp, Vault, Ubuntu, Python, tutorial]
 category: Software-Development
 ---
 

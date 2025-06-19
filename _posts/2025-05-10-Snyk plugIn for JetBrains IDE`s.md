@@ -2,7 +2,6 @@
 layout: post
 title: "Snyk is a security tool that helps developers find and fix vulnerabilities"
 date: 2025-03-04
-tags: [Snyk, JetBrains, IntelliJ, Plugin]
 category: Software-Development
 ---
 ![Alt Text](/BeagleByte/assets/images/20250513021431.png){: class="shrink-image" }

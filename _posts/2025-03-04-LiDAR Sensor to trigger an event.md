@@ -2,7 +2,6 @@
 layout: post
 title: "Set physical intruder alarm — LiDAR Sensor to trigger an event"
 date: 2025-03-04
-tags: [LiDAR, Sensor, Python, Tutorial]
 category: IoT
 ---
 
