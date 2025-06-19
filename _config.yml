@@ -26,7 +26,7 @@ title:            BeagleByte Dev & Sec
 tagline:          'A Jekyll theme'
 description:      'A BeagleByte theme for tech topics, tutorials, and more.'
 keywords:          "Python, Cyber Security, Java, Development, Spring, Spring Boot, Jekyll, Hacking"
-baseurl:          /BeagleByte
+baseurl:          /
 url:              http://BeagleByte.github.io
 author:
   name:           "BeagleByte"
