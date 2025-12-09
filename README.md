@@ -1,5 +1,8 @@
 ## Hi there 👋
 
+I’m currently working on an agentic program with local LLM to fetch CVE's. 
+I’m currently learning RAG and creating Agents for various tasks
+
 <!--
 **BeagleByte/BeagleByte** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
