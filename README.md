@@ -1,6 +1,7 @@
 ## Hi there 👋
 
-I’m currently working on an agentic program with local LLM to fetch CVE's. 
+I’m currently lean about AI Security.
+Still learning Cyber Security
 I’m currently learning RAG and creating Agents for various tasks
 
 <!--
