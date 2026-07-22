@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-I’m currently lean about AI Security.
+I’m currently learn about AI Security.
 Still learning Cyber Security
 I’m currently learning RAG and creating Agents for various tasks
 
