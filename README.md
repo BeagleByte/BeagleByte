@@ -6,8 +6,8 @@ I’m currently learning RAG and creating Agents for various tasks
 
 
 ## Bookmarks
-<p>
-  - https://hacktricks.wiki/en/index.html
+
+- https://hacktricks.wiki/en/index.html
 - https://swisskyrepo.github.io/PayloadsAllTheThings/
 - https://github.com/Ne3o1/PayLoadAllTheThings
 - https://beaglebyte.github.io/BeagleByte/
@@ -15,7 +15,7 @@ I’m currently learning RAG and creating Agents for various tasks
 - https://lolbas-project.github.io/
 - https://github.com/jpillora/chisel
 - http://pentesting.m14r41.in/
-</p>
+
 
 
 Here are some ideas to get you started:
