@@ -7,9 +7,14 @@ I’m currently learning RAG and creating Agents for various tasks
 
 ## Bookmarks
 - https://hacktricks.wiki/en/index.html
+- https://swisskyrepo.github.io/PayloadsAllTheThings/
 - https://github.com/Ne3o1/PayLoadAllTheThings
 - https://beaglebyte.github.io/BeagleByte/
 - https://www.thingiverse.com/thingiversebooth653/designs
+
+- https://lolbas-project.github.io/
+- https://github.com/jpillora/chisel
+- http://pentesting.m14r41.in/
 
 
 Here are some ideas to get you started:
