@@ -15,6 +15,7 @@ I’m currently learning RAG and creating Agents for various tasks
 - https://lolbas-project.github.io/
 - https://github.com/jpillora/chisel
 - http://pentesting.m14r41.in/
+- https://cds.climate.copernicus.eu/
 
 
 
