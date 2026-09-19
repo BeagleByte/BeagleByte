@@ -2,7 +2,6 @@
 
 I’m currently learn about AI Security.
 Still learning Cyber Security
-I’m currently learning RAG and creating Agents for various tasks
 
 
 ## Bookmarks
