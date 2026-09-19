@@ -18,6 +18,9 @@ I’m currently learning RAG and creating Agents for various tasks
 - https://cds.climate.copernicus.eu/
 - https://codeberg.org/BeagleByte
 
+## Data Science to climate change - currently only in german for lower saxony
+- https://beaglebyte.codeberg.page/
+
 
 
 Here are some ideas to get you started:
