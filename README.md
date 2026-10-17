@@ -25,7 +25,9 @@ Still learning Cyber Security
 working on:
 
 - 🔭 I’m currently working on C# Security Research
-- 🌱 I’m currently learning C# and Defense Evasion
+- 🌱 I’m currently research border of 4b models, and what can I achieve with it in cyber security tasks
+- Experimental actions with autogen and agents.
+- IBM RAG and Agentic AI Certification
 
 
 ## My techstack
