@@ -22,7 +22,7 @@ Still learning Cyber Security
 
 
 
-Here are some ideas to get you started:
+working on:
 
 - 🔭 I’m currently working on C# Security Research
 - 🌱 I’m currently learning C# and Defense Evasion
