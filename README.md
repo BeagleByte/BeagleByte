@@ -22,7 +22,7 @@ Still learning Cyber Security
 
 
 
-working on:
+## Working on:
 
 - 🔭 I’m currently working on C# Security Research
 - 🌱 I’m currently research border of 4b models, and what can I achieve with it in cyber security tasks
