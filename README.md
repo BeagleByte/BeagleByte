@@ -28,7 +28,7 @@ working on:
 - 🌱 I’m currently research border of 4b models, and what can I achieve with it in cyber security tasks
 - Experimental actions with autogen and agents.
 
-# Recently achievements
+## Recently achievements
 - IBM RAG and Agentic AI Professional Certification
 
 
